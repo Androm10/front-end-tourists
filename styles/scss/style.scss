@@ -1,18 +1,32 @@
 @import "./ui/buttons";
 @import "./ui/header";
 @import "./ui/input";
+@import "./ui/star-rating";
+@import "./ui/scrollbar";
+
 @import "./blocks/preview";
 @import "./blocks/section__header";
 @import "./blocks/tourcard";
 @import "./blocks/catalog";
 @import "./blocks/fastregister";
 @import "./blocks/footer";
-
+@import "./blocks/comment";
+@import "./blocks/comment-section";
+@import "./blocks/comment-field";
 
 body {
     margin: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 section {
     margin-top: 60px;
+}
+
+.flex {
+    display:flex;
+}
+
+textarea {
+    resize: none;
 }

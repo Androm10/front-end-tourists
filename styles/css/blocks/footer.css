@@ -17,7 +17,8 @@ $color-scheme : (
   padding-left: -20px;
   padding-right: -20px;
 }
-.footer .footer__logos {
+
+.footer__logos {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -25,20 +26,21 @@ $color-scheme : (
   gap: 5px;
   width: 20%;
 }
-.footer .footer__refers {
+
+.footer__refers {
   display: flex;
   align-items: center;
   justify-content: space-evenly;
   align-content: stretch;
   flex-wrap: wrap;
 }
-.footer .footer__refers .footer__navigation {
+.footer__refers .footer__navigation {
   color: white;
 }
-.footer .footer__refers .footer__navigation ul {
+.footer__refers .footer__navigation ul {
   list-style-type: none;
 }
-.footer .footer__refers .footer__navigation a {
+.footer__refers .footer__navigation a {
   text-decoration: none;
   color: white;
 }

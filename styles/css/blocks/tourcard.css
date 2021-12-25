@@ -11,14 +11,6 @@ $color-scheme : (
   background-color: #ECF1ED;
   border-radius: 2%;
 }
-.tourcard .tourcard__preview {
-  position: relative;
-  height: 200px;
-  width: 300px;
-}
-.tourcard .tourcard__preview img {
-  position: absolute;
-}
 .tourcard .tourcard__description {
   margin-top: 20px;
   margin-bottom: 20px;
@@ -33,7 +25,18 @@ $color-scheme : (
   background-color: #F1ECEC;
   margin: auto;
 }
-.tourcard .tourcard__button {
+
+.tourcard__preview {
+  position: relative;
+  height: 200px;
+  width: 300px;
+}
+.tourcard__preview img {
+  position: absolute;
+  border-radius: 2%;
+}
+
+.tourcard__button {
   width: 90%;
   margin: auto;
   margin-bottom: 5px;
@@ -42,6 +45,7 @@ $color-scheme : (
 .tourcard__preview:after {
   content: "";
   position: absolute;
+  border-radius: 2%;
   height: 200px;
   width: 300px;
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));

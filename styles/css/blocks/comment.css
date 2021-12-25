@@ -1,0 +1,58 @@
+/*
+$color-scheme : (
+    mainColor : $mainColor,
+    secondColor : $secondColor,
+    thirdColor : $secondColor,
+    fourthColor : $fourthColor
+)
+*/
+.comment {
+  background-color: #ECF1ED;
+  width: 80%;
+  border-radius: 3%;
+  padding-bottom: 10px;
+}
+
+.comment__info {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 100%;
+}
+.comment__info img {
+  width: 60px;
+  height: 60px;
+}
+
+.comment__userinfo .comment__username {
+  border-bottom: 1px solid gray;
+  color: blue;
+}
+.comment__userinfo .comment__useremail {
+  color: gray;
+  opacity: 0.8;
+  line-height: 30px;
+}
+.comment__userinfo .comment__useremail ul {
+  list-style: none;
+}
+
+.comment__rateanddate .comment__date {
+  font-size: 12px;
+  color: gray;
+  border-bottom: 1px solid black;
+  position: relative;
+  margin: auto;
+}
+
+.comment__text {
+  display: inline-block;
+  width: 90%;
+  margin: auto;
+  box-shadow: 0px 0px 2px #0EBE5D;
+  border-radius: 3%;
+  color: black;
+  font-size: 24px;
+}
+
+/*# sourceMappingURL=comment.css.map */

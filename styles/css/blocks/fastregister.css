@@ -13,10 +13,12 @@ $color-scheme : (
   width: 80%;
   background-color: #ECF1ED;
 }
-.fastregistration .fastregistration__head {
+
+.fastregistration__head {
   padding-top: 20px;
 }
-.fastregistration .fastregistration__form {
+
+.fastregistration__form {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;

@@ -1,52 +1,66 @@
 @import "../consts/typography";
 @import "../consts/colors";
 
+
+
 .preview {
-    display: flex;
-    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ),url(../../images/index-back.jpg) center no-repeat;
-    background-attachment: scroll;
-    background-size: cover;
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) );
 
     height: 900px;
     width: 100%;
 
     font-family: $main-font;
     color: white;
-
-    align-content: flex-end;
-    justify-content: center;
-    align-items: center;
-
-    .preview__container {
-        position: relative;
-        display: grid;
-        //grid-auto-rows: minmax(auto, auto);
-        grid-template-rows: 1fr 1fr 1fr 10px 1fr 1fr 1fr;
-        width: 50%;
-
-        .preview__h1 {
-            grid-row-start: 3;
-            grid-row-end: 3;
-            width:80%;
-            font-size: 40px;
-            font-weight: bold;
-        }
-        .preview__line{
-            grid-row-start: 4;
-            grid-row-end: 4;
-          
-            width: 50%; 
-        }
-        .preview__text {
-            grid-row-start: 5;
-            grid-row-end: 5;
-        }
-        .preview__button {
-            grid-row-start: 6;
-            grid-row-end: 6;
-        }
-    }
-
-    
    
+}
+
+
+.preview__container {
+    position: relative;
+    display: grid;
+    //grid-auto-rows: minmax(auto, auto);
+    grid-template-rows: 1fr 1fr 1fr 10px 1fr 1fr 1fr;
+    width: 50%;
+    height: 900px;
+    margin:auto;
+
+
+    .preview__h1 {
+        grid-row-start: 3;
+        grid-row-end: 3;
+        width:80%;
+        font-size: 40px;
+        font-weight: bold;
+    }
+    .preview__line{
+        grid-row-start: 4;
+        grid-row-end: 4;
+      
+        width: 50%; 
+    }
+    .preview__text {
+        grid-row-start: 5;
+        grid-row-end: 5;
+    }
+    .preview__button {
+        grid-row-start: 6;
+        grid-row-end: 6;
+    }
+}
+
+.preview__image {
+    position: absolute;
+    display: inline-block;
+    
+    height: 900px;
+    width: 100%;
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) );
+    z-index: -1;
+    img {
+        object-fit:cover;
+        position: absolute;
+        height: 900px;
+        width: 100%;
+        z-index: -1;
+    }
 }

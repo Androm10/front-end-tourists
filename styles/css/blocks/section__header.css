@@ -14,17 +14,20 @@ $color-scheme : (
   grid-template-columns: 40px 1fr;
   font-family: Lato;
 }
-.head .head__vl {
+
+.head__vl {
   grid-row-start: 1;
   background-color: rgba(245, 255, 248, 0.5);
   border-left: 3px solid #12D614;
 }
-.head .head__text {
+
+.head__text {
   grid-column-start: 2;
   font-size: 28px;
   background-color: rgba(245, 255, 248, 0.5);
 }
-.head .head__hl {
+
+.head__hl {
   margin-top: 5px;
   width: 15%;
   border-top: 1px solid black;

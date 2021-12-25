@@ -1,0 +1,24 @@
+/*
+$color-scheme : (
+    mainColor : $mainColor,
+    secondColor : $secondColor,
+    thirdColor : $secondColor,
+    fourthColor : $fourthColor
+)
+*/
+.comment-section {
+  display: flex;
+  gap: 12px;
+  flex-direction: column;
+  align-items: center;
+  overflow-y: scroll;
+  border: 1px solid #0DA050;
+  border-radius: 0.5em;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  width: 80%;
+  height: 600px;
+  margin: auto;
+}
+
+/*# sourceMappingURL=comment-section.css.map */
