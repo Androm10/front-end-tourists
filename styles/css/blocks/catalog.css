@@ -1,0 +1,8 @@
+.catalog {
+  display: flex;
+  gap: 12px;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+/*# sourceMappingURL=catalog.css.map */

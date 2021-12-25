@@ -1,0 +1,18 @@
+
+@import "consts/typography.scss";
+
+h1 {
+    font : $main-font;
+    font-size : $h1-font-size;
+}
+
+h1 {
+    font : $main-font;
+    font-size : $h2-font-size;
+}
+
+text {
+    font : $main-font;
+    font-size : $text-size;
+    color : $text-color;
+}

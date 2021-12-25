@@ -1,0 +1,50 @@
+/*
+$color-scheme : (
+    mainColor : $mainColor,
+    secondColor : $secondColor,
+    thirdColor : $secondColor,
+    fourthColor : $fourthColor
+)
+*/
+.tourcard {
+  width: 300px;
+  background-color: #ECF1ED;
+  border-radius: 2%;
+}
+.tourcard .tourcard__preview {
+  position: relative;
+  height: 200px;
+  width: 300px;
+}
+.tourcard .tourcard__preview img {
+  position: absolute;
+}
+.tourcard .tourcard__description {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.tourcard .tourcard__description .tourcard__head {
+  color: #159800;
+}
+.tourcard .tourcard__description .tourcard__text {
+  width: 90%;
+  height: 80px;
+  box-shadow: 2px 3px 6px gray;
+  background-color: #F1ECEC;
+  margin: auto;
+}
+.tourcard .tourcard__button {
+  width: 90%;
+  margin: auto;
+  margin-bottom: 5px;
+}
+
+.tourcard__preview:after {
+  content: "";
+  position: absolute;
+  height: 200px;
+  width: 300px;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+}
+
+/*# sourceMappingURL=tourcard.css.map */

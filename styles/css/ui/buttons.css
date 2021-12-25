@@ -1,0 +1,42 @@
+/*
+$color-scheme : (
+    mainColor : $mainColor,
+    secondColor : $secondColor,
+    thirdColor : $secondColor,
+    fourthColor : $fourthColor
+)
+*/
+.custom-button {
+  position: relative;
+  height: 60px;
+  width: 165px;
+  background-color: #10D168;
+  border-radius: 20px;
+  border-style: none;
+  font-family: Lato;
+  font-size: 18px;
+  color: white;
+  transition: border-color 0.5s ease-in-out, box-shadow 0.15s ease-in-out, background-color 0.2s ease-in-out;
+}
+.custom-button a {
+  position: absolute;
+  text-decoration: false;
+  color: white;
+}
+
+.custom-button:hover {
+  cursor: pointer;
+  color: #0BA34F;
+  background-color: rgba(0, 0, 0, 0);
+  border: 3px solid #0BA34F;
+}
+
+.custom-button:active {
+  cursor: default;
+  background-color: #00652D;
+  color: white;
+  border-width: 4px;
+  border-color: #0BA34F;
+}
+
+/*# sourceMappingURL=buttons.css.map */

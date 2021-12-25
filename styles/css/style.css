@@ -1,0 +1,317 @@
+/*
+$color-scheme : (
+    mainColor : $mainColor,
+    secondColor : $secondColor,
+    thirdColor : $secondColor,
+    fourthColor : $fourthColor
+)
+*/
+.custom-button {
+  position: relative;
+  height: 60px;
+  width: 165px;
+  background-color: #10D168;
+  border-radius: 20px;
+  border-style: none;
+  font-family: Lato;
+  font-size: 18px;
+  color: white;
+  transition: border-color 0.5s ease-in-out, box-shadow 0.15s ease-in-out, background-color 0.2s ease-in-out;
+}
+.custom-button a {
+  position: absolute;
+  text-decoration: false;
+  color: white;
+}
+
+.custom-button:hover {
+  cursor: pointer;
+  color: #0BA34F;
+  background-color: rgba(0, 0, 0, 0);
+  border: 3px solid #0BA34F;
+}
+
+.custom-button:active {
+  cursor: default;
+  background-color: #00652D;
+  color: white;
+  border-width: 4px;
+  border-color: #0BA34F;
+}
+
+.header {
+  position: absolute;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-family: Lato;
+  width: 100%;
+  height: 60px;
+  flex-direction: none;
+  margin-top: 40px;
+}
+.header .header__a {
+  color: white;
+  text-decoration: none;
+  font-size: 24px;
+}
+.header .header__nav {
+  margin-right: 40px;
+  display: flex;
+  justify-content: space-around;
+  width: 60%;
+}
+
+.custom-input {
+  outline: 0;
+  display: block;
+  height: calc(2.25rem + 2px);
+  width: 200px;
+  border-radius: 5px;
+  border: 1px solid #bdbdbd;
+  font-family: Lato;
+  text-decoration: none;
+  font-size: 1rem;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.custom-input::placeholder {
+  font-size: 1rem;
+  font-family: Lato;
+  opacity: 0.8;
+}
+
+.custom-input:focus {
+  box-shadow: 1px 2px 6px gray;
+}
+
+.custom-input:valid {
+  box-shadow: 2px 2px 6px green;
+  color: #0B3900;
+  border: 1px solid green;
+}
+
+.custom-input:invalid {
+  box-shadow: 2px 2px 6px red;
+  color: #F35A5A;
+  border: 1px solid red;
+}
+
+/*
+$color-scheme : (
+    mainColor : $mainColor,
+    secondColor : $secondColor,
+    thirdColor : $secondColor,
+    fourthColor : $fourthColor
+)
+*/
+.preview {
+  display: flex;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../../images/index-back.jpg) center no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+  height: 900px;
+  width: 100%;
+  font-family: Lato;
+  color: white;
+  align-content: flex-end;
+  justify-content: center;
+  align-items: center;
+}
+.preview .preview__container {
+  position: relative;
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr 10px 1fr 1fr 1fr;
+  width: 50%;
+}
+.preview .preview__container .preview__h1 {
+  grid-row-start: 3;
+  grid-row-end: 3;
+  width: 80%;
+  font-size: 40px;
+  font-weight: bold;
+}
+.preview .preview__container .preview__line {
+  grid-row-start: 4;
+  grid-row-end: 4;
+  width: 50%;
+}
+.preview .preview__container .preview__text {
+  grid-row-start: 5;
+  grid-row-end: 5;
+}
+.preview .preview__container .preview__button {
+  grid-row-start: 6;
+  grid-row-end: 6;
+}
+
+/*
+$color-scheme : (
+    mainColor : $mainColor,
+    secondColor : $secondColor,
+    thirdColor : $secondColor,
+    fourthColor : $fourthColor
+)
+*/
+.head {
+  width: 100%;
+  height: 60px;
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  grid-template-columns: 40px 1fr;
+  font-family: Lato;
+}
+.head .head__vl {
+  grid-row-start: 1;
+  background-color: rgba(245, 255, 248, 0.5);
+  border-left: 3px solid #12D614;
+}
+.head .head__text {
+  grid-column-start: 2;
+  font-size: 28px;
+  background-color: rgba(245, 255, 248, 0.5);
+}
+.head .head__hl {
+  margin-top: 5px;
+  width: 15%;
+  border-top: 1px solid black;
+  grid-row: 2;
+  grid-column: 2;
+}
+
+/*
+$color-scheme : (
+    mainColor : $mainColor,
+    secondColor : $secondColor,
+    thirdColor : $secondColor,
+    fourthColor : $fourthColor
+)
+*/
+.tourcard {
+  width: 300px;
+  background-color: #ECF1ED;
+  border-radius: 2%;
+}
+.tourcard .tourcard__preview {
+  position: relative;
+  height: 200px;
+  width: 300px;
+}
+.tourcard .tourcard__preview img {
+  position: absolute;
+}
+.tourcard .tourcard__description {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.tourcard .tourcard__description .tourcard__head {
+  color: #159800;
+}
+.tourcard .tourcard__description .tourcard__text {
+  width: 90%;
+  height: 80px;
+  box-shadow: 2px 3px 6px gray;
+  background-color: #F1ECEC;
+  margin: auto;
+}
+.tourcard .tourcard__button {
+  width: 90%;
+  margin: auto;
+  margin-bottom: 5px;
+}
+
+.tourcard__preview:after {
+  content: "";
+  position: absolute;
+  height: 200px;
+  width: 300px;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+}
+
+.catalog {
+  display: flex;
+  gap: 12px;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+/*
+$color-scheme : (
+    mainColor : $mainColor,
+    secondColor : $secondColor,
+    thirdColor : $secondColor,
+    fourthColor : $fourthColor
+)
+*/
+.fastregistration {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  width: 80%;
+  background-color: #ECF1ED;
+}
+.fastregistration .fastregistration__head {
+  padding-top: 20px;
+}
+.fastregistration .fastregistration__form {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  gap: 5px;
+}
+
+/*
+$color-scheme : (
+    mainColor : $mainColor,
+    secondColor : $secondColor,
+    thirdColor : $secondColor,
+    fourthColor : $fourthColor
+)
+*/
+.footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  background-color: #373535;
+  font-family: Lato;
+  width: 100%;
+  padding-left: -20px;
+  padding-right: -20px;
+}
+.footer .footer__logos {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: center;
+  gap: 5px;
+  width: 20%;
+}
+.footer .footer__refers {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  align-content: stretch;
+  flex-wrap: wrap;
+}
+.footer .footer__refers .footer__navigation {
+  color: white;
+}
+.footer .footer__refers .footer__navigation ul {
+  list-style-type: none;
+}
+.footer .footer__refers .footer__navigation a {
+  text-decoration: none;
+  color: white;
+}
+
+body {
+  margin: 0;
+}
+
+section {
+  margin-top: 60px;
+}
+
+/*# sourceMappingURL=style.css.map */

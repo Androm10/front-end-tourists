@@ -1,0 +1,1 @@
+{"version":3,"sourceRoot":"","sources":["../../scss/consts/_colors.scss","../../scss/blocks/tourcard.scss"],"names":[],"mappings":"AAeA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;ACZA;EACI;EACA,kBDDU;ECEV;;AAEA;EACI;EACA;EACA;;AACA;EACI;;AAIR;EAEI;EACA;;AAEA;EACI,ODZK;;ACcT;EACI;EACA;EAEA;EACA;EAEA;;AAGR;EACI;EACA;EACA;;;AAOR;EACI;EACA;EACA;EACA;EACA","file":"tourcard.css"}

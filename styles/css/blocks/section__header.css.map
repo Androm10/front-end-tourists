@@ -1,0 +1,1 @@
+{"version":3,"sourceRoot":"","sources":["../../scss/consts/_colors.scss","../../scss/blocks/section__header.scss","../../scss/consts/_typography.scss"],"names":[],"mappings":"AAeA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;ACZA;EACI;EACA;EACA;EACA;EACA;EAGA,aCXS;;ADaT;EACI;EAEA,kBDPK;ECSL;;AAGJ;EACI;EACA;EACA,kBDfK;;ACiBT;EACI;EACA;EACA;EACA;EACA","file":"section__header.css"}

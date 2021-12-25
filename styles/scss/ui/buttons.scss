@@ -1,0 +1,39 @@
+
+@import ".././consts/colors";
+@import "../consts/typography";
+
+.custom-button {
+    position : relative;
+    height : 60px;
+    width : 165px;
+    background-color: $mainColor;
+    border-radius: 20px;
+    border-style: none;
+    font-family: $main-font;
+    font-size: 18px;
+    color: white;
+
+    a {
+        position : absolute;
+        text-decoration : false;
+        color : white;  
+    }
+
+    transition: border-color 0.5s ease-in-out, box-shadow 0.15s ease-in-out,
+    background-color 0.20s ease-in-out;
+}
+
+.custom-button:hover {
+    cursor: pointer;
+    color: $buttonHoverColor;
+    background-color: rgba(0,0,0,0);
+    border: 3px solid $buttonHoverColor;
+}
+
+.custom-button:active {
+    cursor:default;
+    background-color: $buttonActiveColor;
+    color: white;
+    border-width: 4px;
+    border-color: $buttonHoverColor;
+}
