@@ -1,0 +1,19 @@
+
+.custom-checkbox,
+.custom-checkbox[type="checkbox"]:checked, 
+.custom-checkbox[type="checkbox"]:not(:checked) 
+{
+    position: absolute;
+    left: -9999px;
+}
+
+
+custom-checkbox[type="checkbox"]:checked + label, 
+custom-checkbox[type="checkbox"]:not(:checked) + label 
+{
+    display: inline-block;
+    position: relative;
+    padding-left: 28px;
+    line-height: 20px;
+    cursor: pointer;
+}

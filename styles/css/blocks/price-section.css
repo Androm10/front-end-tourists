@@ -1,0 +1,26 @@
+.price-section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 80%;
+  padding: 20px;
+  margin: auto;
+}
+
+.price-section__full {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.price-section__full .price-section__variant {
+  border-bottom: 1px solid black;
+}
+.price-section__full ul {
+  list-style-image: url(../../images/dollar.png);
+}
+
+.price-section__details ul {
+  margin-left: 10px;
+}
+
+/*# sourceMappingURL=price-section.css.map */

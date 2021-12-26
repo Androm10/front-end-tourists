@@ -1,0 +1,27 @@
+
+@import "../consts/colors";
+
+.travel-plan {
+    
+    width: 80%;
+    background-color: $spaceColor;
+    margin:auto;
+    border-radius: 2%;
+}
+
+.travel-plan__head {
+    margin-top: 20px;
+}
+
+.travel-plan__container {
+    ul {
+        ul {
+            
+
+            li{
+                list-style-image: url(../../images/location-pin.png);
+                margin-left: 20px;
+            }
+        }
+    }
+}

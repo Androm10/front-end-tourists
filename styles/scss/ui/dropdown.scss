@@ -1,0 +1,41 @@
+
+
+.dropdown {
+
+
+
+    ul {
+        padding:0;
+		margin:0;
+		list-style: none;
+        list-style-type: none;
+		position: relative;
+        
+        ul{
+            display: none;
+            top:100%;
+            position:relative;
+            
+            li {
+                min-width:170px;    
+		        position: relative;
+                border-bottom: opx solid gray;
+            }
+        }
+
+        li {
+            border-bottom: 1px solid gray;
+        }
+    }
+
+    li:hover {
+        background-color: $spaceColor;
+    }
+
+    
+}
+
+.dropdown__key:checked ~ ul {
+    display: inherit;
+}
+

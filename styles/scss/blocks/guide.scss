@@ -1,0 +1,58 @@
+@import "../consts/colors";
+
+.guide {
+    display: flex;
+    flex-wrap: wrap;
+    gap:30px;
+
+    margin:auto;
+    width:80%;
+    padding: 20px;
+    border-radius: 2em;
+
+    background-color: $spaceColor;
+
+}
+
+
+.guide__photo {
+    display: inline-block;
+    
+    width:40%;
+
+    img {
+        border-radius: 50%;
+        height: 100%;
+        width: 100%;
+        
+    }
+}
+
+
+.guide__profile {
+    
+    display:flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: space-between;
+
+    width:55%;
+
+    .guide__nickname {
+        color: blue;
+        font-size: 32px;
+        font-weight: bold;
+        border-bottom: 1px solid black;
+    }
+
+}
+
+.guide__info {
+    width: 100%;
+    .guide__text {
+        box-shadow: 0px 0px 4px $fourthColor;
+    }
+}
+                    
+                   

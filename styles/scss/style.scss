@@ -1,8 +1,13 @@
+@import "./consts/colors";
+
 @import "./ui/buttons";
 @import "./ui/header";
 @import "./ui/input";
 @import "./ui/star-rating";
 @import "./ui/scrollbar";
+@import "./ui/slider";
+@import "./ui/dropdown";
+@import "./ui/custom-checkbox";
 
 @import "./blocks/preview";
 @import "./blocks/section__header";
@@ -14,6 +19,10 @@
 @import "./blocks/comment-section";
 @import "./blocks/comment-field";
 @import "./blocks/cabinet";
+@import "./blocks/travel-plan";
+@import "./blocks/item-plan";
+@import "./blocks/guide";
+@import "./blocks/price-section";
 
 
 body {
@@ -32,3 +41,4 @@ section {
 textarea {
     resize: none;
 }
+

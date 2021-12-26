@@ -1,0 +1,17 @@
+@import "../consts/colors";
+
+.item-plan {
+    width: 70%;
+    background-color: $spaceColor;
+    margin: auto;
+
+    .item-plan__head {
+        margin-top: 10px;
+    }
+
+    .item-plan__container {
+        ul {
+            list-style-image: url(../../images/portfolio.png);
+        }
+    }
+}

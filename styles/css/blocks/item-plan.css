@@ -1,0 +1,21 @@
+/*
+$color-scheme : (
+    mainColor : $mainColor,
+    secondColor : $secondColor,
+    thirdColor : $secondColor,
+    fourthColor : $fourthColor
+)
+*/
+.item-plan {
+  width: 70%;
+  background-color: #ECF1ED;
+  margin: auto;
+}
+.item-plan .item-plan__head {
+  margin-top: 10px;
+}
+.item-plan .item-plan__container ul {
+  list-style-image: url(../../images/portfolio.png);
+}
+
+/*# sourceMappingURL=item-plan.css.map */
