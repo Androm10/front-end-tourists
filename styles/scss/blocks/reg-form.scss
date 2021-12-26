@@ -1,0 +1,45 @@
+@import "../consts/colors";
+
+.reg-form {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap:10px;
+
+    padding: 20px;
+    width: 60%;
+    margin: auto;
+    background-color: $spaceColor;
+    border-radius: 2em;
+
+    input {
+        width: 80%;
+    }
+}
+
+.reg-form__header {
+    border-bottom: 1px solid black;
+    text-align: center;
+    font-size: 36px;
+}
+
+.reg-form__social {
+    color: gray;
+    font-size: 12px;
+    img {
+        width: 40px;
+        height:40px;
+    }
+}
+
+
+.logo {
+    
+    width: 40%;
+    margin:auto;
+
+    img {
+        width: 100%;
+        height: 100%;    
+    }
+}

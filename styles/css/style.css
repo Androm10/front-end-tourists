@@ -1044,6 +1044,53 @@ $color-scheme : (
   text-align: center;
 }
 
+/*
+$color-scheme : (
+    mainColor : $mainColor,
+    secondColor : $secondColor,
+    thirdColor : $secondColor,
+    fourthColor : $fourthColor
+)
+*/
+.reg-form {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+  padding: 20px;
+  width: 60%;
+  margin: auto;
+  background-color: #ECF1ED;
+  border-radius: 2em;
+}
+.reg-form input {
+  width: 80%;
+}
+
+.reg-form__header {
+  border-bottom: 1px solid black;
+  text-align: center;
+  font-size: 36px;
+}
+
+.reg-form__social {
+  color: gray;
+  font-size: 12px;
+}
+.reg-form__social img {
+  width: 40px;
+  height: 40px;
+}
+
+.logo {
+  width: 40%;
+  margin: auto;
+}
+.logo img {
+  width: 100%;
+  height: 100%;
+}
+
 body {
   margin: 0;
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
