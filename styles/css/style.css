@@ -963,6 +963,87 @@ $color-scheme : (
   margin-left: 10px;
 }
 
+/*
+$color-scheme : (
+    mainColor : $mainColor,
+    secondColor : $secondColor,
+    thirdColor : $secondColor,
+    fourthColor : $fourthColor
+)
+*/
+.search {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 100%;
+  background-color: #ECF1ED;
+  min-height: 80px;
+}
+.search input {
+  width: 50%;
+}
+
+.search-container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: space-around;
+  gap: 5px;
+}
+.search-container .search__catalog {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+.search-container .search__catalog .catalog {
+  padding: 20px;
+  box-shadow: 1px 1px 3px gray;
+}
+.search-container .search__catalog .search__next {
+  box-shadow: 0px 0px 2px gray;
+  font-size: 24px;
+  text-align: center;
+}
+
+.filter {
+  background-color: #ECF1ED;
+  box-shadow: 0px 0px 2px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.filter__item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 80%;
+  margin: auto;
+}
+.filter__item .filter__name {
+  color: black;
+  text-align: center;
+}
+.filter__item input {
+  width: 50%;
+}
+.filter__item label {
+  display: inline-block;
+}
+.filter__item .flex {
+  width: 50%;
+  justify-content: space-between;
+}
+.filter__item .flex div {
+  width: 40px;
+}
+
+.filter__result {
+  background-color: #DBF1E0;
+  text-align: center;
+}
+
 body {
   margin: 0;
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;

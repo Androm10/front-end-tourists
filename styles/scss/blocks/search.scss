@@ -1,0 +1,44 @@
+@import "../consts/colors";
+
+.search {
+    
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+
+    width: 100%;
+    background-color: $spaceColor;
+    min-height: 80px;
+
+    input {
+        width: 50%;
+    }
+}
+
+
+
+.search-container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: space-around;
+    gap:5px;
+
+    .search__catalog {    
+        display: flex;
+        flex-direction: column;
+        width: 50%;
+        .catalog {
+            padding: 20px;
+            box-shadow: 1px 1px 3px gray;
+        }
+
+        .search__next {
+            box-shadow: 0px 0px 2px gray;
+            font-size: 24px;
+            text-align: center;
+        }
+
+    }
+}

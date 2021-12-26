@@ -1,0 +1,39 @@
+.filter {
+  background-color: #ECF1ED;
+  box-shadow: 0px 0px 2px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.filter__item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 80%;
+  margin: auto;
+}
+.filter__item .filter__name {
+  color: black;
+  text-align: center;
+}
+.filter__item input {
+  width: 50%;
+}
+.filter__item label {
+  display: inline-block;
+}
+.filter__item .flex {
+  width: 50%;
+  justify-content: space-between;
+}
+.filter__item .flex div {
+  width: 40px;
+}
+
+.filter__result {
+  background-color: #DBF1E0;
+  text-align: center;
+}
+
+/*# sourceMappingURL=filter.css.map */
