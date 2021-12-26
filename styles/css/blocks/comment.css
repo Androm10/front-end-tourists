@@ -49,6 +49,7 @@ $color-scheme : (
   display: inline-block;
   width: 90%;
   margin: auto;
+  padding: 10px;
   box-shadow: 0px 0px 2px #0EBE5D;
   border-radius: 3%;
   color: black;
