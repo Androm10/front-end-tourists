@@ -29,8 +29,9 @@
         grid-row-start: 3;
         grid-row-end: 3;
         width:80%;
-        font-size: 40px;
+        font-size: max(5.4em, min(4em, 12.9vw));;
         font-weight: bold;
+        
     }
     .preview__line{
         grid-row-start: 4;

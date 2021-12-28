@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="./styles/css/style.css">
+        <title>WorldTours</title>
+
+
+    </head>
+    <body>
+
+        <header class="header reverse-color">
+            <div class="header__logo">
+                <img src="images/logo.jpg" width="228px" height="64px"></img> 
+            </div>
+
+            <nav class="header__nav">
+                <a class="header__a" href="index.html">Главная</a>
+                <a class="header__a" href="index.html">Туры</a>
+                <a class="header__a" href="index.html">Контакты</a>
+                <a class="header__a" href="index.html">Войти</a>
+                <a href="vk.com" class="header__a"> <img src="images/vk.jpg" width="45px" height="45px"></img> </a>
+                <a href="google.com" class="header__a"> <img src="images/google.jpg" width="45px" height="45px"></img>  </a>
+            </nav>
+        </header>
+        
+
+        <section id="create-tour">
+
+            <div class="create-tour">
+                <div class="create-tour__head">
+                    Создание тура
+                </div>
+
+                <div class="preview">
+                    
+                    <div class="preview__container">       
+                        <h1 class="preview__h1">Введите название тура</h1>      	
+                        <hr class=" preview__line" align="left" size=1px >  
+                        <text class="preview__text">Введите описание тура</text>
+                        
+                    </div>
+
+                </div>
+
+
+                <div class="create-tour__fileupload">
+                    Загрузите превью
+                    <input type="file">   
+                </div>
+
+
+                <section id="Marchroute">
+                    <div class="head">
+                        <div class="head__vl"></div>
+                        <div class="head__text">Маршрут</div>
+                        <div class="head__hl"></div>  
+                    </div>
+                    
+                    <div class="create-tour__march">
+                        <div class="create-tour__places">
+                            <select name="marchroute" class="custom-input">
+                                <option value="s1">Дороги Нью-Йорка</option>
+                                <option value="s2" selected>По России</option>
+                                <option value="s3">Французские достопремичательности</option>
+                                <option value="s4" >В Польше</option>
+                            </select>
+
+                            <div class="create-tour__places-head">Места</div>
+
+                            <ul>
+                                <li>Место 1</li>
+                                <li>Место 2</li>
+                                <li>Место 3</li>
+                                <li>Место 4</li>
+                                
+                            </ul>
+
+                        </div>
+
+                        <div class="create-tour__info">
+                            <ul>
+                                <li>Длительность: 12д</li>
+                                <li>Остановок: 3</li>
+                                <li>Протяженность: 12км</li>
+                            </ul>
+                        </div>
+
+                    </div>
+
+
+
+                </section>
+                
+
+                <section id="create-marchroute">
+
+                    <div class="head">
+                        <div class="head__vl"></div>
+                        <div class="head__text">Создать свой маршрут</div>
+                        <div class="head__hl"></div>  
+                    </div>
+
+                    <div class="map-api"><img src="images/api-replace.png"></div>
+
+
+                    <div class="create-tour__march">
+
+                        <div class="create-tour__places">               
+
+                            <div class="create-tour__places-head">Места</div>
+
+                            <ul>
+                                <li>Место 1</li>
+                                <li>Место 2</li>
+                                <li>Место 3</li>
+                                <li>Место 4</li>
+                                <li>Место 5</li>
+                            </ul>
+
+                        </div>
+
+                        <div class="create-tour__info">
+                            <ul>
+                                <li>Длительность: 5д</li>
+                                <li>Остановок: 2</li>
+                                <li>Протяженность: 6км</li>
+                            </ul>
+                        </div>
+
+                    </div>
+
+                </section>
+
+
+                <section id="description">
+                    <div class="flex">
+                        <div class="create-tour__description">
+                            <div class="create-tour__description-head">
+                                Описание
+                            </div>
+
+                            <div class="create-tour__description-text">
+                                <textarea class="custom-input" placeholder="Описание тура"></textarea>
+                            </div>
+
+                        </div>
+                        
+                        <div class="create-tour__items">
+                            <div class="create-tour__items-head">
+                                Необходимо взять
+                            </div>
+                            
+                            <div class="create-tour__items-list">
+                                <input class="custom-input" placeholder="Добавьте вещь">
+
+
+                                <ul>
+                                    <li>вещь 1</li>
+                                    <li>вещь 2</li>
+                                    <li>вещь 3</li>
+                                </ul>
+                            </div>
+
+                        </div>
+                    </div>
+
+                </section>
+
+
+            </div>
+
+
+        </section>
+
+
+
+       
+
+
+
+
+
+
+
+        <section id="footer">
+            <div class="footer">
+                <div class="footer__logos">
+                    <a href=""><img src="images/logo.jpg" width="228px" height="64px"></a>
+                    <a href=""><img src="images/vk.jpg" width="50px" height="50px"></a>
+                    <a href=""><img src="images/google.jpg" width="50px" height="50px"></a>
+                </div>
+
+                <div class="footer__refers">
+                    <div class="footer__navigation">
+                        <ul>
+                            <li><h1>Навигация</h1> </li>
+                            <li><a href="">главная</a> </li>
+                            <li><a href="">контакты</a> </li>
+                            <li><a href="">о нас</a> </li>
+                            <li><a href="">личный кабинет</a> </li>
+                        </ul>
+                    </div>
+                    <div class="footer__navigation">
+                        <ul>
+                            <li><h1>Туры</h1> </li>
+                            <li><a href="">популярные</a> </li>
+                            <li><a href="">для вас</a> </li>
+                            <li><a href="">по категориям</a> </li>
+                            <li><a href="">с друзьями</a> </li>
+                        </ul>
+                    </div>
+                    <div class="footer__navigation">
+                        <ul>
+                            <li><h1>Контакты</h1> </li>
+                            <li><text>ул. Дадиани 7, Тбилиси, Грузия</text> </li>
+                            <li><text>+375-24-332-65-34</text> </li>
+                            <li><text>worldtours@gmail.com</text> </li>
+                            <li><a href="">связь</a> </li>
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+
+
+        </section>
+
+    </body>
+</html>

@@ -7,28 +7,48 @@
     align-items: center;
     font-family: $main-font;
     width: 100%;
-    height: 60px;
+    
     flex-direction: none;
     margin-top: 40px;
     
 }
 
+.header__logo {
+
+    margin-left: 20px;
+    width: 60%;
+    
+    img {
+        width: 60%;
+        height: 100%;
+    }
+
+}
+
+
 .header__a {
     text-decoration: none;
-    font-size: 24px;
+    font-size: max(0.8em, min(4em, 2.333vw));
     color: white;
+    font-style: italic;
+    
+    img {
+        width: 3.6vw;
+        height: 100%;
+    }
 }
 
 .header__nav {
     margin-right: 40px;
     display: flex;
     justify-content: space-around;
+    gap: 10px;
     width: 60%;
 }
 
 
 .reverse-color {
-
+    
     margin-top: 0px;
     position: sticky;
     .header__a {
@@ -38,3 +58,4 @@
     background-color: $spaceColor;
     box-shadow: 2px 0px 4px gray;
 }
+

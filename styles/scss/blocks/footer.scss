@@ -17,6 +17,7 @@
 }
 
 .footer__logos {
+    margin-top:5px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -24,6 +25,11 @@
     gap: 5px;
 
     width: 20%;
+
+    img {
+        object-fit: contain;  
+        width: 100%;    
+    }
     
 }
 .footer__refers {

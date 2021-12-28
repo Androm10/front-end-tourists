@@ -23,7 +23,7 @@ $color-scheme : (
 
 .head__text {
   grid-column-start: 2;
-  font-size: 28px;
+  font-size: max(1.4em, min(4em, 1.9vw));
   background-color: rgba(245, 255, 248, 0.5);
 }
 

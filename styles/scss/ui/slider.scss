@@ -103,6 +103,7 @@
           width: 100%;
           height: 100%;
           vertical-align: middle;
+          object-fit:cover;
         }
       }
   
@@ -207,8 +208,8 @@
   }
   
   .container {
-    width: 900px;
-    min-width: 900px;
+    width: 90%;
+    
     margin: 50px auto;
   }
   

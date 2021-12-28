@@ -55,21 +55,35 @@ $color-scheme : (
   align-items: center;
   font-family: Lato;
   width: 100%;
-  height: 60px;
   flex-direction: none;
   margin-top: 40px;
 }
 
+.header__logo {
+  margin-left: 20px;
+  width: 60%;
+}
+.header__logo img {
+  width: 60%;
+  height: 100%;
+}
+
 .header__a {
   text-decoration: none;
-  font-size: 24px;
+  font-size: max(0.8em, min(4em, 2.333vw));
   color: white;
+  font-style: italic;
+}
+.header__a img {
+  width: 3.6vw;
+  height: 100%;
 }
 
 .header__nav {
   margin-right: 40px;
   display: flex;
   justify-content: space-around;
+  gap: 10px;
   width: 60%;
 }
 
@@ -218,8 +232,7 @@ body {
 }
 
 .container {
-  width: 900px;
-  min-width: 900px;
+  width: 90%;
   margin: 50px auto;
 }
 
@@ -301,6 +314,7 @@ body {
   width: 100%;
   height: 100%;
   vertical-align: middle;
+  object-fit: cover;
 }
 .carousel__prev > label, .carousel__next > label {
   border: 1px solid #fff;
@@ -440,7 +454,7 @@ $color-scheme : (
   grid-row-start: 3;
   grid-row-end: 3;
   width: 80%;
-  font-size: 40px;
+  font-size: max(5.4em, min(4em, 12.9vw));
   font-weight: bold;
 }
 .preview__container .preview__line {
@@ -498,7 +512,7 @@ $color-scheme : (
 
 .head__text {
   grid-column-start: 2;
-  font-size: 28px;
+  font-size: max(1.4em, min(4em, 1.9vw));
   background-color: rgba(245, 255, 248, 0.5);
 }
 
@@ -619,12 +633,17 @@ $color-scheme : (
 }
 
 .footer__logos {
+  margin-top: 5px;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   align-content: center;
   gap: 5px;
   width: 20%;
+}
+.footer__logos img {
+  object-fit: contain;
+  width: 100%;
 }
 
 .footer__refers {
@@ -740,7 +759,6 @@ $color-scheme : (
   justify-content: space-around;
   align-items: center;
   width: 80%;
-  height: 300px;
   background-color: #ECF1ED;
   border-radius: 1em;
   padding: 20px;
@@ -750,7 +768,7 @@ $color-scheme : (
 .comment-field__input {
   padding: 5px;
   border-radius: 1em;
-  height: 100%;
+  height: 300px;
   width: 60%;
 }
 .comment-field__input textarea {
@@ -1091,6 +1109,105 @@ $color-scheme : (
   height: 100%;
 }
 
+/*
+$color-scheme : (
+    mainColor : $mainColor,
+    secondColor : $secondColor,
+    thirdColor : $secondColor,
+    fourthColor : $fourthColor
+)
+*/
+.create-tour {
+  display: flex;
+  flex-direction: column;
+  background-color: #ECF1ED;
+  width: 95%;
+  margin: auto;
+}
+
+.create-tour__head {
+  width: 100%;
+  border-bottom: 1px solid gray;
+  text-align: center;
+  font-size: 24px;
+}
+
+.create-tour__fileupload {
+  text-align: center;
+  background-color: #DBF1E0;
+}
+
+.create-tour__march {
+  display: flex;
+  padding: 20px;
+}
+.create-tour__march .create-tour__places {
+  width: 60%;
+  margin: auto;
+  border-right: 1px solid black;
+}
+.create-tour__march .create-tour__places ul {
+  list-style-image: url(../../images/location-pin.png);
+}
+.create-tour__march .create-tour__info {
+  width: 40%;
+  line-height: 20px;
+  padding: 20px;
+  box-shadow: 0px 0px 3px gray;
+}
+.create-tour__march .create-tour__info ul {
+  list-style-type: none;
+}
+
+.create-tour__places-head {
+  margin-top: 5px;
+  border-bottom: 1px solid black;
+}
+
+.map-api {
+  display: inline-block;
+  width: 100%;
+}
+.map-api img {
+  width: 100%;
+}
+
+.create-tour__description {
+  width: 50%;
+  padding: 20px;
+  background-color: #ECF1ED;
+}
+.create-tour__description .create-tour__description-head {
+  border-bottom: 1px solid black;
+}
+.create-tour__description .create-tour__description-text {
+  box-sizing: border-box;
+  box-shadow: 1px 1px 3px gray;
+  padding: 10px;
+}
+.create-tour__description .create-tour__description-text textarea {
+  height: 200px;
+  width: 100%;
+}
+
+.create-tour__items {
+  width: 50%;
+  padding: 20px;
+  background-color: #ECF1ED;
+}
+.create-tour__items .create-tour__items-head {
+  border-bottom: 1px solid black;
+}
+.create-tour__items .create-tour__items-list {
+  box-shadow: 1px 1px 3px gray;
+}
+.create-tour__items .create-tour__items-list ul {
+  list-style-image: url(../../images/portfolio.png);
+}
+.create-tour__items .create-tour__items-list input {
+  width: 90%;
+}
+
 body {
   margin: 0;
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
@@ -1102,6 +1219,7 @@ section {
 
 .flex {
   display: flex;
+  flex-wrap: wrap;
 }
 
 textarea {
